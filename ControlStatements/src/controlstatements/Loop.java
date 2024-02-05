@@ -64,6 +64,27 @@ public class Loop {
                
                System.out.println("X "+i);
            }
+           
+           //Post Fix
+        
+        int china_loan = 10;
+        int lanka =china_loan++;
+        
+        System.out.println(lanka);
+        System.out.println(china_loan);
+        
+        int x=10;
+        
+        int ans1 = x++;
+        int ans2 = x++;
+        int ans3 = x++;
+        int ans4 = x++;
+        
+        System.out.println(x);
+        System.out.println(ans1);
+        System.out.println(ans2);
+        System.out.println(ans3);
+        System.out.println(ans4);
     
     }
     

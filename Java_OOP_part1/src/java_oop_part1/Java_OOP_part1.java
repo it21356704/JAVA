@@ -10,15 +10,15 @@ package java_oop_part1;
             }
             
             public void room1(){
-                System.out.println("Welcome to Master Bedroom");
+                System.out.println("Welcome to Room1");
             }
                         
             public void room2(){
-                System.out.println("Welcome to Master Bedroom");
+                System.out.println("Welcome to Room2");
             }
             
             public void gate(){
-                System.out.println("Welcome to Master Bedroom");
+                System.out.println("Welcome to Gate");
             }
         }  
 

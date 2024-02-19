@@ -53,6 +53,7 @@ public class Constructors {
           Kottu MyThirdKottu = new Kottu("Large"," Spice-High ");
           System.out.println(MyThirdKottu.GenerateKottu());
           
+          //(1) Same way
           Kottu example = new Kottu();
           System.out.println(example.GenerateKottu());
         

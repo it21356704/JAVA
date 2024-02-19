@@ -49,10 +49,12 @@ package java_oop_part2;
             }
             
             public int sum(int no1, int no2){
+                System.out.println("Integer method with 2 parameters");
                 return no1+no2;
             }
             
             public double sum(double no1, double no2){
+                System.out.println("Double method with 2 parameters");
                 return no1+no2;
             }
         }
@@ -82,6 +84,12 @@ public class Java_OOP_part2 {
           
           cal cal3 = new cal();
           System.out.println(cal3.sum(100, 200, 300));
+          
+          cal cal4 = new cal();
+          System.out.println(cal4.sum(20, 30));
+          
+          cal cal5 = new cal();
+          System.out.println(cal5.sum(11.5, 90.8));
     }
     
 }

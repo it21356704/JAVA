@@ -56,6 +56,11 @@ public class Constructors {
           //(1) Same way
           Kottu example = new Kottu();
           System.out.println(example.GenerateKottu());
+          
+          //(1) Same way
+          Kottu example1 = new Kottu();
+          System.out.println(example1.GenerateKottu());
+          
         
     }
     

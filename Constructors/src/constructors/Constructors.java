@@ -3,8 +3,8 @@ package constructors;
 class Kottu{
     
     String KottuType = "Veg Kottu";//Veg Fish Chicken
-    String SpiceLevel = "Spice - Medium"; //Spice - Low | Spice - Medium | Spice - High
-    String Potion = "Small"; //Small Medium Large
+    String SpiceLevel = "  Spice-Medium"; //Spice - Low | Spice - Medium | Spice - High
+    String Potion = "  Small"; //Small Medium Large
     
     //Constructor Overloading (1)
     Kottu(){
@@ -18,7 +18,7 @@ class Kottu{
         this.SpiceLevel = SpiceLevel;
         this.Potion = PotionSize; 
     }
-    
+     
     //(3)
     Kottu(String PotionSize, String SpiceLevel){
         this.KottuType = "Cheese";
@@ -42,16 +42,19 @@ public class Constructors {
           //(1)
           Kottu MyFirstKottu = new Kottu();
           
-//        String MyKottu = MyFirstKottu.GenerateKottu();
-//        System.out.println(MyKottu);
+          String MyKottu = MyFirstKottu.GenerateKottu();
+          System.out.println(MyKottu);
 
           //(2)
-          Kottu MySecondKottu = new Kottu("Fish Kottu","Large","Spice - High");
+          Kottu MySecondKottu = new Kottu("Fish Kottu","Large"," Spice-High ");
           System.out.println(MySecondKottu.GenerateKottu());
           
           //(3)
-          Kottu MyThirdKottu = new Kottu("Large","Spice - High");
+          Kottu MyThirdKottu = new Kottu("Large"," Spice-High ");
           System.out.println(MyThirdKottu.GenerateKottu());
+          
+          Kottu example = new Kottu();
+          System.out.println(example.GenerateKottu());
         
     }
     

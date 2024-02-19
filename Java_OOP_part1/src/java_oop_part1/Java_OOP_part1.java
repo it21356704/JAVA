@@ -16,9 +16,13 @@ package java_oop_part1;
             public void room2(){
                 System.out.println("Welcome to Room2");
             }
-            
+        
             public void gate(){
                 System.out.println("Welcome to Gate");
+            }
+            
+            public void kitchen(){
+                System.out.println("Welcome to Kitchen");
             }
         }  
 
@@ -81,11 +85,13 @@ public class Java_OOP_part1 {
                home Jack = new home(); //New Object
                home Ben = new home(); //New Object
                home Ann = new home(); //New Object
+               home Sam = new home();
 
               
                Jack.MasterBedroom();
                Ben.MasterBedroom();
                Ann.MasterBedroom();
+               Sam.kitchen();
 
     }
     

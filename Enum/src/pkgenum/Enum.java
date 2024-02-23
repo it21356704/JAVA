@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pkgenum;
 
-/**
- *
- * @author chamigunawardane
- */
+
 public class Enum {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        for(Days values:Days.values()){
+//            System.out.println(values);
+        }
+        
+        Days var1 = Days.MONDAY;
+        String s1 = Days.FRIDAY.toString();
+        System.out.println(s1);
+        
     }
     
 }

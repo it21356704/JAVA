@@ -31,7 +31,6 @@ public class VariableTypes {
     public static void main(String[] args) {
         
         int local = 100;// Local Variable
-        int local1 = 200;
         System.out.println(local);
         //System.out.println(USD);
         System.out.println(version);

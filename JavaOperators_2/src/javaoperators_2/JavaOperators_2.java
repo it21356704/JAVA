@@ -33,6 +33,7 @@ public class JavaOperators_2 {
         int y8 = x--;//51>>50
         
         System.out.println(x);
+        System.out.println(y8);
     }
     
 }

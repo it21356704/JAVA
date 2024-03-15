@@ -28,8 +28,7 @@ package java_oop_part1;
 
 public class Java_OOP_part1 {
     
-//    public void Avg(int n1, int n2, int n3){ 
-//    
+//       public void Avg(int n1, int n2, int n3){     
 //        int no1 = n1;
 //        int no2 = n2;
 //        int no3 = n3;
@@ -79,7 +78,7 @@ public class Java_OOP_part1 {
 //             String cup = a.Nescafe("230V", " water-50ml", " Nescafe");
 //             System.out.println(cup + " Suger");
 
-               short x = 100;
+               short x = 100;             
                String y = "Java";
                
                home Jack = new home(); //New Object

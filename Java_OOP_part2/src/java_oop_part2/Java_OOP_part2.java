@@ -72,11 +72,11 @@ public class Java_OOP_part2 {
 //        home1.Masterbedroom();
 //        home2.Masterbedroom();
         
-          cal cal1 = new cal();
-          System.out.println(cal1.sum(100, 20, 70));
-          System.out.println(cal1.x);
-          System.out.println(cal.y);
-          System.out.println(cal.abc());
+//          cal cal1 = new cal();
+//          System.out.println(cal1.sum(100, 20, 70));
+//          System.out.println(cal1.x);
+//          System.out.println(cal.y);
+//          System.out.println(cal.abc());
           
           
           cal cal2 = new cal();

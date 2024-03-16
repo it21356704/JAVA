@@ -140,7 +140,7 @@ public class ArrayList_HashMap_HashSet {
             
             //Remove
             numbers.remove(2);
-            
+  
             //Size
             System.out.println(numbers.size());
             

@@ -45,7 +45,7 @@ public class JavaOperators {
         boolean status = 1>100;
         System.out.println(status);
 
-        //  >= -Greater than
+        //  >= -Greater than 
         boolean status1 = 100 >= 100;
         System.out.println(status1);        
         
